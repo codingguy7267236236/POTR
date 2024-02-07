@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+h4{
+  font-size:18px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size:17px;
+  margin-bottom:10px;
+}
+
+.banner{
+    width:100%;
+    height:auto;
+    min-height:130vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/im1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.b2{
+    min-height:60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/je times.png");
+}
+
+.im1{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://trancentral.tv/wp-content/uploads/2018/05/Red-And-Blue-Planet-HD-Wallpaper-1920x1080.jpg");
+}
+
+.im5{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/im5.png");
+}
+
+.im6{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/potrMap.svg");
+}
+
+.im2{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://cdn.wallpapersafari.com/88/60/5KfMbz.jpg");
+}
+
+.im7{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://upload.wikimedia.org/wikipedia/commons/6/6e/S%C3%A3o_Paulo_city_%28Bela_Vista%29_%28banner_esVoy%29.jpg");
+}
+
+.im8{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://i.etsystatic.com/12160948/r/il/14c215/1507741114/il_794xN.1507741114_r1tv.jpg");
+}
+
+
+.b2 .content{
+  margin-top:80px;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  transform: translateY(-30%);
+  text-align: center;
+  color: #fff;
+}
+
+.b2 .content h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.b2 .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.b2 .banner p{
+  padding:5px 25px;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(239, 174, 27);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.logo{
+    cursor: pointer;
+    width:100px;
+}
+
+.content{
+  margin-top:250px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(239, 174, 27);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    border: 2px solid transparent;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+span{
+    background: rgb(239, 174, 27);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.brief{
+    min-height: 50vh;
+    padding: 35px 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.row{
+    display:flex;
+    height: 88%;
+    align-items: center;
+    vertical-align: middle;
+    color:white;
+}
+
+.card{
+    width: 250px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    color: #fff;
+    vertical-align: top;
+    text-shadow: 0 0 15px #000;
+}
+
+.details{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details2{
+  padding:10px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.c1{
+  position:relative;
+  background-image: url(images/im2.png);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/im2.png");
+}
+
+.c1:hover .details .mainNewsTitle{
+  opacity:0;
+}
+
+.c1:hover .details .overlay{
+  height:100%;
+}
+
+.c2{
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6c05117908d1b62a/60dbfb8f2e95e10f21f27392/43209b00ccb912b98af95e3c5afd71c83dbe24d6.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6c05117908d1b62a/60dbfb8f2e95e10f21f27392/43209b00ccb912b98af95e3c5afd71c83dbe24d6.png");
+}
+
+.c3{
+    background-image: url(images/im4.png);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/im4.png");
+}
+
+.c4{
+    background-image: url(images/im5.png);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/im5.png");
+}
+
+.c5{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-childrens-clothing-store-shopping-mall-photography-map-with-map-image_796892.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-childrens-clothing-store-shopping-mall-photography-map-with-map-image_796892.jpg");
+}
+
+.c6{
+    background-image: url(images/potrMap.svg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/potrMap.svg");
+}
+
+.briefcon{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.briefcon h2{
+    padding: 15px;
+}
+
+.foot{
+    background: rgb(44, 44, 44);
+    color: #fff;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+.overlay{
+  position:absolute;
+  border-radius: 10px;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,0.7);
+  overflow:hidden;
+  width:100%;
+  height:0;
+  transition:.5s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readmore{
+  text-transform:uppercase;
+}
+
+#cont{
+  margin-top:20px;
+}
+
+.loginDiv{
+}
+
+
+.loginform input{
+  width:90%;
+  height:40px;
+  padding:5px 15px;
+  border-radius:20px;
+  border:2px solid lightgray;
+  background:white;
+  transition-duration:0.4s;
+}
+
+.loginform input:focus{
+  transition-duration:0.4s;
+  border:2px solid rgb(239, 174, 27);
+  outline:none;
+}
+
+.loginform button a{
+  color:black;
+  font-size:15px;
+}
+
+.sec1{
+  color:white;
+  margin-bottom:50px;
+}
+
+.biref.brief2{
+  background:rgba(0,0,0,1);
+}
+
+.pfp{
+  height:70%;
+  width:150px;
+}
+
+.action{
+  color: blue;
+  font-style: italic;
+}
+
+.action:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logout{
+  color: black;
+}
+
+.disable{
+  display: none;
+}
+
+@media only screen and (min-width: 768px){
+  .content{
+    margin-top:auto;
+  }
+
+  .banner{
+    min-height:100vh;
+  }
+
+  .b2{
+    min-height:50vh;
+  }
+
+  .b2 .content{
+    margin-top:0px;
+  }
+
+  .navbar ul li a{
+    font-size:18px;
+  }
+
+  .logo{
+      cursor: pointer;
+      width:100px;
+  }
+
+  .b2 .content h1{
+      font-size: 70px;
+  }
+  .content h1{
+      font-size: 70px;
+  }
+
+  .loginform input{
+    width:40%;
+    height:40px;
+  }
+}

@@ -1,0 +1,44 @@
+{"news": {"1": {"title": "Scottagon FC Appoint Michael Scott as manager", "description": "In a surprising turn of events, Scottagon FC, one of the rising stars in the footballing world, has announced the appointment of Michael Scott as their new manager. The decision comes as a shock to many in the sports community, but club officials are confident that Scott's unique leadership style and unorthodox approach will bring success to the team. Michael Scott, widely known for his stint as the regional manager at Dunder Mifflin Scranton, a paper company in the United States, may not have a traditional background in professional football management, but his passion for the sport and his proven track record of motivating teams in unconventional ways have convinced Scottagon's board of directors that he is the right man for the job. 'We are thrilled to welcome Michael Scott to the Scottagon family,' said Amanda Rodriguez, the club's chairwoman. 'His charisma, creativity, and ability to inspire those around him make him the perfect fit for our club as we strive for greatness on and off the pitch.' Scottagon FC has been on the rise in recent years, with a strong squad of talented players and a growing fanbase. However, they have struggled to break into the upper echelons of the footballing world. With Michael Scott at the helm, the club hopes to harness his unique leadership style to propel them to new heights of success. 'I'm honored and humbled to have been chosen as the new manager of Scottagon FC,' said Scott in a statement. 'I may not know much about football, but I do know a thing or two about bringing people together and achieving greatness. With hard work, determination, and a little bit of fun, I'm confident that we can achieve great things here at Scottagon.' While some skeptics have raised concerns about Scott's lack of experience in professional football management, others are intrigued by the potential for his unorthodox methods to shake up the status quo and breathe new life into the team. 'I'll admit, I was skeptical at first,' said Diego Sanchez, a lifelong Scottagon fan. 'But after seeing what Michael Scott did at Dunder Mifflin, I'm excited to see what he can do for our club. Who knows, maybe we'll be seeing Scottagon lifting trophies sooner than we think.' As Michael Scott takes the reins at Scottagon FC, the footballing world watches with bated breath to see how his unique brand of leadership will impact the team's fortunes on the pitch. One thing is for certain: with Michael Scott in charge, the world of football just got a whole lot more interesting.", "image": "https://i.redd.it/zednegtha0z71.png"}}, 
+"clubs": {
+    "1": {"title": "Eatonburg FC", "name": "Eatonburg", 
+    "description": "Eatonburg FC was the first football club founded in the Planet of The Republic era. The club is yet to lift any major silverware, but competes in the highest division.",
+    "image": "./static/images/eatonburg.png"
+    }, 
+    
+    "2": {"title": "Als Toy Barn FC", "name": "Eatdon", 
+    "description": "Dedicated to Als Toy Barn, Als Toy Barn FC represents the business of the McWhiggin family. The club finds themself in the top flight with one Domestic Cup to their name.","image": "./static/images/atb.png"}, 
+     
+    "3": {"title": "Dunder Mifflin FB", "name": "Eatdon", 
+    "description": "The Dunder Mifflin Football Branch competes in the top flight and is a regular contender for intergalactic football competitions.", 
+    "image": "./static/images/dundermifflin.png"},
+
+    "4": {"title": "Eatonfield FC", "name": "Eatonfield", 
+    "description": "Eatonfield FC is one of the leagues lowest performing clubs. The club despite their low investment, has a loyal fanbase that usually is enough to keep them up.", 
+    "image": "./static/images/eatonfield.png"},
+
+    "5": {"title": "Scottagon FC", "name": "Scottagon", 
+    "description": "Scottagon is a regular title challenging team and have collected the Domestic Cup on one occasion. The club is yet to lift their first league title.", 
+    "image": "./static/images/scottagon.png"},
+
+    "6": {"title": "Ryan FC", "name": "Scottagon", 
+    "description": "Ryan FC headed by Ryan Howard, is a newly established team that has risen up the planets footballing pyramid. The club finds themselves regular contenders for intergalactic competitions.", 
+    "image": "./static/images/ryanfc.png"},
+
+    "7": {"title": "Washington Waves", "name": "Washington JE", 
+    "description": "Washington Waves are the most successful club on the Planet accumulating 2 league titles and 1 domestic cup. The Waves are the team to beat.", 
+    "image": "./static/images/waves.png"},
+
+    "8": {"title": "Jeffington FC", "name": "Jeffington", 
+    "description": "Jeffington FC is based in Jeffington state and has enjoyed midtable finishes.", 
+    "image": "./static/images/jeffington.png"},
+
+    "9": {"title": "Blissful Parrots", "name": "Blissful Shores", 
+    "description": "Blissful Parrots based in the coastside state of Blisssful Shores is a regular participant in the top flight.", 
+    "image": "./static/images/parrots.png"},
+
+    "10": {"title": "Trade Tornados", "name": "Trade Haven", 
+    "description": "Residing in the commercial state of Trade Haven, the Trade Tornados despite their heavy investment reside in the lower half of the division.", 
+    "image": "./static/images/tornados.png"}
+    }, 
+    
+"store": {"1": {"title": "Official POTR Flag", "description": "Wave the official, authentic, Planet of The Republic flag.", "icon": "./static/images/flag.jpg"}, "2": {"title": "POTR Coffee Mug", "description": "Drink coffee, tea, or anything you like from The POTR official mug.", "icon": "./static/images/coffeemug.jpg"}}}

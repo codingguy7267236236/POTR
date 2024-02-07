@@ -1,0 +1,26 @@
+{% extends 'default.html' %}
+{% block head %}
+Store
+{% endblock %}
+
+{% block banner %}<div class="banner b2 im7">{% endblock %}
+{% block content %}
+<div class="content">
+    <h1>Shop</h1>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+      <h1>Top Sellers</h1>
+    </div>
+
+    <div id="items" class="col">
+    </div>
+</div>
+{% endblock %}
+{% block foot %}
+  <script>
+    storeItems({{items|tojson}});
+  </script>
+{% endblock %}

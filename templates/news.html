@@ -1,0 +1,28 @@
+{% extends 'default.html' %}
+{% block head %}
+News
+{% endblock %}
+
+{% block banner %}<div class="banner b2">{% endblock %}
+{% block content %}
+<!--src="{{url_for('static', filename='images/icon.png')}}"-->
+<div class="content">
+    <h1>News</h1>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+        <h2>LATEST</h2>
+    </div>
+  <div id="news" class="col">
+    
+  </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+  <script>
+    add_news({% if dat %}{{dat | tojson}}{% endif %});
+  </script>
+{% endblock %}

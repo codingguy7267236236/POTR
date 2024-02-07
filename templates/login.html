@@ -1,0 +1,41 @@
+{% extends 'default.html' %}
+{% block head %}
+Login
+{% endblock %}
+
+{% block banner %}<div class="banner b2 im8">{% endblock %}
+{% block content %}
+<!--src="{{url_for('static', filename='images/icon.png')}}"-->
+<div class="content">
+    <h1>Login</h1>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+        <h2>Login to your Planet of The Republic Account</h2>
+    </div>
+  <div class="loginDiv">
+    <form id="loginForm" class="loginform" action="/login" method="POST">
+      <input name="name" type="name" placeholder="Enter username....."><br>
+      <input name="password" type="password" placeholder="Enter password......"><br>
+      <input type="hidden" name="login">
+      {% if error %}<p style="color: red;">{{error}}</p>{% endif %}
+      <button><span></span><a>LOGIN</a></button>
+      <p onclick="donthaveaccount('signup')" class="action">Don't have an account? Sign up</p>
+    </form>
+
+    <form id="signupForm" class="disable" action="/login" method="POST">
+      <input name="name" type="name" placeholder="Enter username....."><br>
+      <input name="password" type="password" placeholder="Enter password......"><br>
+      <input type="hidden" name="signup">
+      {% if error %}<p style="color: red;">{{error}}</p>{% endif %}
+      <button><span></span><a>SIGNUP</a></button>
+      <p onclick="donthaveaccount('login')" class="action">Already have an account? Login</p>
+    </form>
+  </div>
+</div>
+{% endblock %}
+{% block foot %}
+<script src="{{url_for('static',filename='login.js')}}"></script>
+{% endblock %}

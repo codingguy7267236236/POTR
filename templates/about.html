@@ -1,0 +1,31 @@
+{% extends 'default.html' %}
+{% block head %}
+About
+{% endblock %}
+
+{% block banner %}<div class="banner b2 im1">{% endblock %}
+{% block content %}
+<!--src="{{url_for('static', filename='images/icon.png')}}"-->
+<div class="content">
+    <h1>About</h1>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+        <h2>Planet of The Republic</h2>
+        <p>The Planet of the Republic stands as a testament to unity, progress, and boundless potential within the vast cosmos. Situated in the far reaches of the galaxy, this celestial body serves as the home to a diverse array of cultures, peoples, and civilizations, all united under the banner of shared values and mutual respect. Spanning continents, oceans, and sprawling landscapes, the Planet of the Republic boasts a rich tapestry of geography, ranging from lush rainforests teeming with life to expansive deserts shimmering under the twin suns. Its varied ecosystems provide a haven for countless species, each contributing to the planet's vibrant and interconnected ecosystem. The Republic is guided by principles of democracy, equality, and justice, ensuring that every citizen has a voice in the decisions that shape their lives and the future of their world. Education flourishes, science thrives, and the arts flourish, reflecting the planet's commitment to fostering creativity, knowledge, and cultural exchange. Yet, the Republic is not without its challenges. Threats from beyond its borders and the complexities of interstellar politics test the resolve of its leaders and citizens alike. However, through cooperation, diplomacy, and a steadfast dedication to the common good, the Republic remains resolute in its pursuit of peace, prosperity, and progress for all who call it home. As the Planet of the Republic continues to chart its course among the stars, it serves as a beacon of hope and inspiration to civilizations across the galaxy, demonstrating the power of unity, diversity, and the enduring spirit of exploration that binds us all together in the vast expanse of the cosmos.</p>
+    </div>
+</div>
+<div class="brief brief2">
+  <h2 id="sec1">The Planet of The Republic is a home for all walks of life.</h2>
+  <div class="card c2" onclick="location.href='/clubs'">
+      <div class="details">
+          <div class="details2">
+              <h4>CLUBS</h4>
+              <p>Lean about our clubs</p>
+          </div>
+      </div>
+  </div>
+</div>
+{% endblock %}

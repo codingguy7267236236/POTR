@@ -1,0 +1,27 @@
+{% extends 'default.html' %}
+{% block head %}
+Clubs
+{% endblock %}
+
+{% block banner %}<div class="banner b2 im2">{% endblock %}
+{% block content %}
+<!--src="{{url_for('static', filename='images/icon.png')}}"-->
+<div class="content">
+    <h1>Clubs</h1>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+        <h2>FOOTBALL CLUBS</h2>
+    </div>
+  <div id="clubs" class="col">
+    
+  </div>
+</div>
+{% endblock %}
+{% block foot %}
+<script>
+  add_clubs({% if dat %}{{dat | tojson}}{% endif %});
+</script>  
+{% endblock %}

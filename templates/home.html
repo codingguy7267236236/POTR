@@ -1,0 +1,73 @@
+{% extends 'default.html' %}
+{% block head %}
+Home
+{% endblock %}
+
+{% block links %}
+<link rel="stylesheet" href="{{url_for('static',filename='mapstyles.css')}}" type="text/css" />
+{% endblock %}
+
+{% block banner %}<div class="banner">{% endblock %}
+{% block content %}
+<!--src="{{url_for('static', filename='images/icon.png')}}"-->
+<div class="content">
+    <h1>Planet Of The Republic</h1>
+    <p>A sanctuary forged from the ruins of the Democratic Republic of JE after the Discord World War. Discover a harmonious blend of ancient wisdom and futuristic marvels on this resilient planet. Join us in celebrating unity, democracy, and endless possibilities. Your adventure begins here!.</p>
+    <div>
+        <button><span></span><a href="#brief">EXPLORE</a></button>
+    </div>
+</div>
+{% endblock %}
+{% block content2 %}
+<div id="brief" class="brief">
+    <div class="briefcon">
+        <h2 style="color: white;">OVERVIEW</h2>
+    </div>
+    <div id="newsholder" class="col">
+        <div class="card c1" onclick="location.href='/about'">
+            <div class="details">
+                <div class="details2">
+                    <h4>ABOUT</h4>
+                    <p>Learn more about The Planet of The Republic</p>
+                </div>
+            </div>
+        </div>
+        <div class="card c2" onclick="location.href='/clubs'">
+            <div class="details">
+                <div class="details2">
+                    <h4>CLUBS</h4>
+                    <p>View our Planets Clubs</p>
+                </div>
+            </div>
+        </div>
+        <div class="card c3" onclick="location.href='/news'">
+            <div class="details">
+                <div class="details2">
+                    <h4>NEWS</h4>
+                    <p>Stay updated with our news channels.</p>
+                </div>
+            </div>
+        </div>
+      <div class="card c5" onclick="location.href='/store'">
+          <div class="details">
+              <div class="details2">
+                  <h4>SHOP</h4>
+                  <p>View the official POTR store.</p>
+              </div>
+          </div>
+      </div>
+      <div class="card c4" onclick="location.href='/contact'">
+          <div class="details">
+              <div class="details2">
+                  <h4>CONTACT</h4>
+                  <p>How to contact us.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+<canvas id="canvas"></canvas>
+{% endblock %}
+  {% block foot %}
+  <script src="{{url_for('static',filename='animations.js')}}"></script>
+  {% endblock %}

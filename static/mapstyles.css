@@ -1,0 +1,179 @@
+path{
+    fill: lightgray;
+    transition-duration: 0.4s;
+}
+
+path:hover{
+    cursor: pointer;
+    fill: gray;
+    transition-duration: 0.4s;
+}
+
+.map{
+    width:100%;
+    height: 100%;
+}
+
+.red{
+    fill: red;
+}
+
+.lred{
+    fill: lightcoral;
+}
+
+.blue{
+    fill: blue;
+}
+
+.lblue{
+    fill: lightblue;
+}
+
+.lime{
+    fill: lime;
+}
+
+.llime{
+    fill: lightgreen;
+}
+
+.yellow{
+    fill: yellow;
+}
+
+.lyellow{
+    fill: #ffffa3;
+}
+
+
+.candidates{
+  width:100%;
+  margin-bottom:40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.candidate{
+  display:inline-block;
+  border-bottom:5px solid black;
+  padding:15px;
+  width:auto;
+}
+
+.candidate img{
+  width:70px;
+}
+
+.candidate h4{
+  margin-top:10px;
+  margin-bottom:-10px;
+}
+
+.candidate p{
+  margin:10px 0;
+  font-weight:bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.winner{
+  border-bottom:5px solid #b29701;
+  background:#b29701;
+  color:white;
+}
+
+.electioninfo{
+  margin:20px 0px;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+
+
+
+.information p{
+  padding:30px 0;
+}
+
+.voteheader div img{
+  width:60px;
+}
+
+.candidates .candidate{
+  min-width:200px;
+  font-size:15px;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+
+.candidate h4{
+  font-size:15px;
+}
+
+.refreshbutton{
+  width:200px;
+  border:2px solid gold;
+  padding:5px;
+  height:40px;
+  color:black;
+  background:transparent;
+}
+
+.refreshbutton:hover{
+  width:200px;
+  border:2px solid gold;
+  background:gold;
+  padding:5px;
+  height:40px;
+}
+
+#stateinfo{
+  margin:40px 0px;
+}
+
+#stateinfo p{
+  margin:20px 0px;
+}
+
+#stateinfo button{
+  color:black;
+}
+
+canvas{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+
+#election{
+  color:white;
+}
+
+@media only screen and (min-width: 1024px){
+  .map{
+    width:50%;
+    height:50%;
+  }
+
+  .candidates{
+    width:60%;
+  }
+  
+  .candidate img{
+    width:90px;
+  }
+
+  .information{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
