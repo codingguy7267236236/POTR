@@ -27,7 +27,7 @@ Project I did to upskill css design from basic to more professional and asthetic
 
 - <b>Dynamic Article Feed</b> - article data can be stored and updated in json file and update on the site.
 - <b>Dynamic Store</b> - custom items can be added to the store again being updated in json file and update on the site.
-- <b>Password Encryption System</b> - passwords encrypted to json file and when loggin in the entered password is hashed and checked against the hashed password in the json file.
+- <b>Password Encryption System</b> - passwords encrypted to json file and when logging in, the entered password is hashed and checked against the hashed password in the json file.
 - <b>Interactive SVG Map</b> - using a custom SVG image representing a map, you can click on different elements to view details about different map areas.
 
 <h2>Environments Used </h2>
