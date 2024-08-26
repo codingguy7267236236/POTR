@@ -9,7 +9,7 @@ Project I did to upskill css design from basic to more professional and asthetic
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
+- <b>Python & Django</b> 
 - <b>HTML</b>
 - <b>CSS</b> 
 - <b>JavaScript</b>
